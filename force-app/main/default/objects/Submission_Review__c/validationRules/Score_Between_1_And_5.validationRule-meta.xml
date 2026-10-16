@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Score_Between_1_And_5</fullName>
+    <active>true</active>
+    <description>Scores use the 1 to 5 rubric.</description>
+    <errorConditionFormula>OR(ISBLANK(Score__c), Score__c &lt; 1, Score__c &gt; 5)</errorConditionFormula>
+    <errorDisplayField>Score__c</errorDisplayField>
+    <errorMessage>Enter a score from 1 to 5.</errorMessage>
+</ValidationRule>

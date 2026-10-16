@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_After_Start</fullName>
+    <active>true</active>
+    <description>A shift must end after it starts.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(Shift_Start__c)), NOT(ISBLANK(Shift_End__c)), Shift_End__c &lt;= Shift_Start__c)</errorConditionFormula>
+    <errorDisplayField>Shift_End__c</errorDisplayField>
+    <errorMessage>The shift must end after it starts.</errorMessage>
+</ValidationRule>

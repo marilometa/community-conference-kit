@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submission__c</fullName>
+    <externalId>false</externalId>
+    <label>Submission</label>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <referenceTo>Submission__c</referenceTo>
+    <relationshipLabel>Sessions</relationshipLabel>
+    <relationshipName>Sessions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_After_Start</fullName>
+    <active>true</active>
+    <description>A session must end after it starts.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(Start__c)), NOT(ISBLANK(End__c)), End__c &lt;= Start__c)</errorConditionFormula>
+    <errorDisplayField>End__c</errorDisplayField>
+    <errorMessage>The session must end after it starts.</errorMessage>
+</ValidationRule>

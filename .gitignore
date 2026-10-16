@@ -1,0 +1,13 @@
+.scrub-denylist.txt
+.sf/
+.sfdx/
+.localdevserver/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+node_modules/
+*.log
+*.csv
+*.xlsx

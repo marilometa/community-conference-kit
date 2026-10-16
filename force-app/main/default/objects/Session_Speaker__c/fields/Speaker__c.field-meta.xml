@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speaker__c</fullName>
+    <externalId>false</externalId>
+    <label>Speaker</label>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Session Roles</relationshipLabel>
+    <relationshipName>Session_Roles</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
