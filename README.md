@@ -1,5 +1,7 @@
 # Community Conference Kit
 
+[![Validate metadata](https://github.com/marilometa/community-conference-kit/actions/workflows/validate.yml/badge.svg)](https://github.com/marilometa/community-conference-kit/actions/workflows/validate.yml)
+
 A Salesforce data model and playbook for running a community-led conference: call for papers, reviews, agenda, speakers, sponsors and volunteers.
 
 It comes from founding and organizing Albania Dreamin', a community-led Salesforce conference in Tirana, every year since 2020. **No real attendee, speaker or sponsor data is included.** All demo data is fictional.
