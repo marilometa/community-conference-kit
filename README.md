@@ -63,7 +63,7 @@ Templates for the non-technical side of running the event:
 
 ## Status
 
-Version 0.1. The metadata passes structural checks and converts cleanly with the Salesforce CLI, but it has not yet been deployed to a scratch org. Please open an issue if a deploy fails.
+Version 0.1. **Verified in November 2026:** all 70 components deployed to a fresh scratch org, the permission set assigned, and the demo seed script passed every check (both flows and the review roll-ups). Every push is also checked automatically. Please open an issue if a deploy fails.
 
 ## Contributing
 
